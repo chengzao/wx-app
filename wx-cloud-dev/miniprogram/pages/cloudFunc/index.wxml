@@ -1,0 +1,3 @@
+  <view class="uploader">
+    <text  bindtap='callFuncCloude' class="uploader-text">sum云函数</text>
+  </view>

@@ -1,0 +1,31 @@
+<view class="video">
+  <video id="video" src="{{videoSrc}}" controls show-fullscreen-btn danmu-list="{{danmuList}}" enable-danmu danmu-btn></video>
+  <!-- 通过 playVideo 这个方法来控制 showVideo 这个属性，从而控制遮罩的产品图片是否隐藏 -->
+  <cover-view class="{{showVideo ? 'video-mask' : 'hide-video-mask'}}" bindtap='playVideo'>
+    bg
+  </cover-view>
+  <!-- 通过 playVideo 这个方法来控制 showVideo 这个属性，从而控制遮罩的播放按钮是否隐藏 -->
+  <cover-view class="{{showVideo ? 'video-mask' : 'hide-video-mask'}}" bindtap='playVideo'>
+    Clike Me
+  </cover-view>
+  <!-- other -->
+  <cover-view class='tip' bindtap='handleShare'>
+    Can You See Me ...
+  </cover-view>
+
+  <cover-view bindtap='handleShareMask'  class='{{!showShare? "hide-video-mask": "video-mask"}}'>
+      hande share some thing  
+  </cover-view>
+
+</view>
+
+
+<view>
+  <input bindblur="bindInputBlur" value='{{inputValue}}' placeholder='输入点什么...' />
+  <button bindtap="bindSendDanmu">发送弹幕</button>
+</view>
+
+
+<view>
+  <button bindtap="bindButtonTap">获取视频</button>
+</view>

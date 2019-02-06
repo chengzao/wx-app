@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html5 canvas截图</title>
+  <style>
+    .center{
+      display: flex;
+      justify-content: space-around;
+    }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <div>
+      <h2>video标签</h2>
+      <video src="./upload/test.mp4" id="video" controls muted></video>
+    </div>
+    <div>
+      <h2>canvas标签</h2>
+      <canvas id="icanvas" width="500" height="400">
+        you cant see me~
+      </canvas>
+    </div>
+  </div>
+  <div>
+    <div id="clickme">点击按钮截图</div>
+    <canvas id="icanvasimg" width="500" height="400">
+      you cant see me~
+    </canvas>
+  </div>
+
+  <script type="text/javascript">
+
+
+    function drawvideo() {
+      let icanvas = document.querySelector('#icanvas')
+      let videoElem = document.querySelector('#video')
+      icanvas = document.getElementById("icanvas");
+      var context = icanvas.getContext("2d");//第一个复制video的画布
+      context.drawImage(videoElem, 0, 0, 500, 400);
+    }
+
+    function drawimg() {
+      var firstcanvas = document.getElementById("icanvas");
+      var icanvasimg = document.getElementById("icanvasimg");
+      var contextimg = icanvasimg.getContext("2d");//第二个截图的画布
+      contextimg.drawImage(firstcanvas, 0, 0, firstcanvas.width, firstcanvas.height);
+    }
+
+    window.onload = function () {
+      let videoElem = document.querySelector('#video')
+      videoElem.play();
+      setInterval(drawvideo, 100);
+
+      var clickbtn = document.getElementById('clickme');
+      clickbtn.onclick = function () {
+        drawimg();
+      };
+    }
+
+  </script>
+</body>

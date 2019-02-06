@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "test": "/components/test/index",
+    "custom-li": "/components/custom-li/index",
+    "custom-ul": "/components/custom-ul/index"
+  }
+}

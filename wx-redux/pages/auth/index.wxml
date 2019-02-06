@@ -1,0 +1,10 @@
+<view>
+  <view>Auth</view>
+  <open-data type="userNickName"></open-data>
+  <open-data class="logo" type="userAvatarUrl"></open-data>
+  <open-data type="userGender" lang="zh_CN"></open-data>
+</view>
+
+<!-- 需要使用 button 来授权登录 -->
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<view wx:else>请升级微信版本</view>

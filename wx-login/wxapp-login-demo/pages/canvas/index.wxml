@@ -1,0 +1,10 @@
+<view class="video">
+  <canvas canvas-id="video"></canvas>
+  <button bindtap='createCanvasImage'>点击生成图片</button>
+  <image src='{{img_src}}'></image>
+
+   <button bindtap='downLoadImage'>点击下载</button>  
+
+   <button open-type='getUserInfo' bindgetuserinfo="getUserInfo">获取用户信息</button>
+
+</view>

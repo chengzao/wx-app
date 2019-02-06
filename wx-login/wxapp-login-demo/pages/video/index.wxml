@@ -1,0 +1,9 @@
+<view class="video">
+  <view>
+    <button bindtap="bindButtonTap">获取视频</button>
+  </view>
+  <view>
+    <image src='{{poster}}'></image>
+    <video  id='video' src='{{src}}'></video>
+  </view>
+</view>

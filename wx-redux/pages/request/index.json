@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "request拦截",
+  "navigationBarTextStyle": "#fff",
+  "navigationBarBackgroundColor": "#f0f",
+  "backgroundColor": "#f0f0f0",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": true
+}

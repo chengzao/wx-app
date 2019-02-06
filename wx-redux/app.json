@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/todo/index",
+    "pages/count/index",
+    "pages/async/index",
+    "pages/github/index",
+    "pages/fontface/index",
+    "pages/interceptor/index",
+    "pages/commit/index",
+    "pages/request/index",
+    "pages/canvasdrawer/index",
+    "pages/scrollableTabView/index",
+    "pages/multiLoad/index",
+    "pages/singleLoad/index",
+    "pages/wxparse/index",
+    "pages/scrollview/index",
+    "pages/pullDownRefresh/index",
+    "pages/video/index",
+    "pages/auth/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

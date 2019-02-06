@@ -1,0 +1,5 @@
+<view>
+  <view>Count: {{count}}</view>
+  <button bindtap='countAdd'>+</button><button bindtap='countDec'>-</button>
+  <button bindtap='incrementAsync'>async +</button>
+</view>

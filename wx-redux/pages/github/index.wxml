@@ -1,0 +1,12 @@
+<!--pages/github/index.wxml-->
+<view>
+
+<input value='{{user}}' bindblur="getInputValue"></input>
+<button bindtap='gitRep' data-value="{{user}}">Clike Me</button>
+
+
+<view>{{rep.login}}</view>
+
+<image src='{{rep.avatar_url}}'></image>
+
+</view>

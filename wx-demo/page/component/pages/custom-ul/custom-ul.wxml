@@ -1,0 +1,15 @@
+<canvas class="cir" style="width:590rpx; height:200rpx;" canvas-id="canvasArc"></canvas>
+<custom-ul>
+  <custom-li>item 1</custom-li>
+  <custom-li>item 2</custom-li>
+</custom-ul>
+<!-- 引用组件的页面模版 -->
+<view>
+  <test bind:myevent="onMyEvent" my-class="red-text" my-property="example" my-behavior-property="behavior-property" param-a='12' param-b='b'>
+    <!-- 这部分内容将被放置在组件 <slot name="before"> 的位置上 -->
+    <view slot="before">slot name="before"</view>
+    <!-- 这部分内容将被放置在组件 <slot name="after"> 的位置上 -->
+    <view slot="after">slot name="after"</view>
+  </test>
+</view>
+<text class="iconfont-size iconfont icon-weChat"></text>

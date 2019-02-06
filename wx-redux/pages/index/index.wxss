@@ -1,0 +1,15 @@
+.main navigator{
+  color: red;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.main view {
+  color: red;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: blue;  
+}

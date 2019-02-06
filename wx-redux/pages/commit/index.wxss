@@ -1,0 +1,40 @@
+.commit .item{
+  padding: 10rpx 0;
+  color: red;
+  text-decoration: underline;
+}
+
+.commit .item .text{
+  color: blue;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.commit .input {
+  border: 1px solid #f0f;
+}
+
+.commit .item__children{
+  color: orange;
+  padding-left: 10px;
+}
+
+.commit__normal {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commit__normal input{
+  border: 1px solid greenyellow;
+}
+
+.commit__normal button {
+  display: inline-block;
+}
+
+.commit .len{
+  margin-left: 10px;
+  color: black;
+}

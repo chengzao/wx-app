@@ -1,0 +1,6 @@
+.center{
+  text-align: center;
+  color: red;
+  font-size: 30rpx;
+  margin: 40rpx
+}

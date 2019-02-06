@@ -1,0 +1,27 @@
+<view>
+  <view class='center'> {{title}} </view>
+  <view>
+    <button bindtap='insertOne'>插入数据</button>
+    <button bindtap='findOne'>获取一个记录的数据</button>
+    <button bindtap='findMany'>获取多个记录的数据</button>
+    <button bindtap='findColor'>查询嵌套字段条件</button>
+    <button bindtap='findCollections'>获取一个集合的数据</button>
+  </view>
+  <view class='center'>构建查询条件</view>  
+  <view>
+    <button bindtap='findQueryLt'>查找大于10的数</button>
+    <button bindtap='findQueryAnd'>查找大于10小于15的数</button>
+    <button bindtap='findQueryOr'>查询数为10或100的数</button>
+    <button bindtap='findQueryMix'>查询嵌套字段条件</button>
+  </view>
+  <view class='center'>更新查询条件</view>  
+  <view>
+    <button bindtap='updateOne'>局部更新</button>
+    <button bindtap='updateColor'>更新style 字段</button>
+    <button bindtap='pushArritem'>push tags 字段</button>
+  </view>
+  <view class='center'>删除数据</view>  
+  <view>
+    <button bindtap='deleteOne'>删除一条记录</button>
+  </view>
+</view>

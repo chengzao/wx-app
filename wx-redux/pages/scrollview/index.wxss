@@ -1,0 +1,23 @@
+.scroll-view-item{
+  height: 200px;
+  border-bottom: 2px solid #e0e0e0;
+  line-height: 200px;
+}
+.scroll-view-item:nth-child(Odd){
+  background-color: pink;
+}
+.scroll-view-item:nth-child(even){
+  background-color: yellowgreen;
+}
+
+.scroll-view{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+
+}

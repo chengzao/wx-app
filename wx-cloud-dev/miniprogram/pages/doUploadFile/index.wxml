@@ -1,0 +1,29 @@
+  <!-- 上传图片 -->
+  <view class="uploader">
+    <view class="uploader-text" bindtap="doUpload">
+      <text>上传图片</text>
+    </view>
+    <view class="uploader-container" wx:if="{{imgUrl}}">
+      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
+    </view>
+  </view>
+
+  <!-- 上传图片 -->
+  <view class="uploader">
+    <view class="uploader-text" bindtap="downUpload">
+      <text>下载</text>
+    </view>
+    <view class="uploader-container" wx:if="{{imgUrl}}">
+      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
+    </view>
+  </view>
+
+  <!-- 换取临时链接 -->
+  <view class="uploader">
+    <view class="uploader-text" bindtap="getTempFileURL">
+      <text>换取临时链接</text>
+    </view>
+    <view class="uploader-container" wx:if="{{imgUrl}}">
+      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
+    </view>
+  </view>

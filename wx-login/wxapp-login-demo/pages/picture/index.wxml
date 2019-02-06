@@ -1,0 +1,7 @@
+<view>
+  <button bindtap='uploadImage'>点击上传图片</button>
+
+  <view>
+  <image src='{{picture_src}}'></image>
+  </view>
+</view>

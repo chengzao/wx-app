@@ -1,0 +1,4 @@
+<view class="container">
+    <button bindtap="getMytime">测试异步</button>
+    <p>{{time}}</p>
+</view>

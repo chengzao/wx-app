@@ -1,0 +1,8 @@
+.container {
+    margin:100px auto 0;
+}
+.container p{
+    margin-top:20px;
+    font-size:16px;
+    text-align: center;
+}

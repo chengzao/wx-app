@@ -1,0 +1,26 @@
+<view class='commit'>
+  <view wx:for="{{commit}}" wx:key="{{index}}">
+    <view class='item'  >
+      {{item.info}} 
+      <text class='text' data-index="{{index}}" bindtap='handleCommit'>回复</text>
+      <text class='len'> 一共有 {{item.children.length}} 评论</text>
+    </view>
+
+    <view class='item__children' wx:for="{{item.children}}"  wx:for-item="item2" wx:for-index="index2"  wx:key="{{index2}}">
+      <view>@{{item.info}}: {{item2.info}}</view>
+    </view>
+
+    
+
+
+    <view wx:if="{{index == currentIndex}}">
+      <input class='input' value='{{commitValue}}' placeholder='请输入评论内容'  bindblur="handleCommitValue"></input>
+      <button bindtap='handleCommitSumbit'>提交</button>
+    </view>
+  </view>
+
+  <view class='commit__normal'>
+    <input value='{{value}}' placeholder='评论一个再走...' bindblur='handleValue'></input><button bindtap='handleSumbit'>发送</button>
+  </view>
+
+</view>

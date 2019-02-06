@@ -1,0 +1,19 @@
+<view class='main'>
+  <navigator url='../count/index'>count</navigator>
+  <navigator url='../todo/index'>todo</navigator>
+  <navigator url='../async/index'>async</navigator>
+  <navigator url='../github/index'>github</navigator>
+  <navigator url='../fontface/index'>fontface</navigator>
+  <view bindtap='redirectTo'>redirectTo</view>
+  <navigator url='../request/index'>interceptor request</navigator>
+  <navigator url='../canvasdrawer/index'>canvasdrawer</navigator>
+  <navigator url='../commit/index'>commit</navigator>
+  <navigator url='../singleLoad/index'>singleLoad image</navigator>
+  <navigator url='../multiLoad/index'>multiLoad image</navigator>
+  <navigator url='../wxparse/index'>wxparse</navigator>
+  <navigator url='../scrollview/index'>scrollview</navigator>
+  <navigator url='../scrollableTabView/index'>scrollableTabView</navigator>
+  <navigator url='../pullDownRefresh/index'>pullDownRefresh</navigator>
+  <navigator url='../video/index'>video</navigator>
+  <navigator url='../auth/index'>auth</navigator>
+</view>

@@ -1,0 +1,16 @@
+.container__item{
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.container__item:nth-child(Odd){
+  background-color: pink;
+}
+
+.container__item:nth-child(even){
+  background-color: aqua;
+}

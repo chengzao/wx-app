@@ -1,0 +1,57 @@
+/* 设置视频宽高 */
+video {
+  width: 100%;
+  height: 420rpx;
+}
+.video{
+  position: relative;
+}
+/* 隐藏遮罩层 */
+.hide-video-mask {
+  display: none;
+}
+/* 遮罩层 */
+.video-mask {
+  width: 100%;
+  height: 420rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8;
+
+  background-color: pink;
+}
+/* 遮罩层图片 */
+.video-image {
+  width: 100%;
+  height: 420rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+/* 遮罩层播放按钮 */
+.video-button {
+  width: 98rpx;
+  height: 98rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -49rpx;
+  margin-left: -49rpx;
+  z-index: 99;
+}
+
+.tip{
+  color: red;
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+
+.share{
+  color: orchid;
+  width: 100%;
+  height: 60px;
+  background-color: orange;
+}

@@ -1,0 +1,4 @@
+.test{
+  width: 100rpx;
+  height: 50rpx;
+}
