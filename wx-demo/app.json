@@ -118,6 +118,9 @@
       }
     ]
   },
+  "usingComponents": {
+    "totast": "/components/totast/index"
+  },
   "networkTimeout": {
     "request": 10000,
     "connectSocket": 10000,

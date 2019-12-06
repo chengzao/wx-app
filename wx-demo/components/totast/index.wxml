@@ -1,0 +1,3 @@
+<view class="totast-popver" hidden="{{hidden}}">
+  <view class="inner-text">{{innerText}}</view>
+</view>
